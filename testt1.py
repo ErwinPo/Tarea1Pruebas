@@ -10,6 +10,7 @@ class TestSum(unittest.TestCase):
     def test1(self):
         self.assertEqual(newbebida("aguita,1"), True)
 
+
     def test2(self):
         self.assertEqual(newbebida("4gu1t4,1"), False)
 
